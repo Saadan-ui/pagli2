@@ -82,12 +82,12 @@ html,body{
 
 @media (max-width: 600px) {
     #main>h1{
-        font-size: 35px;
+        font-size: 30px;
     }
     #hbd>img{
         height: 30px;
     }
     #content img{
-        height: 230px;
+        height: 200px;
     } 
 }
