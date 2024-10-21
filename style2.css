@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(230, 216, 243);
+    font-family: "Dancing Script", cursive;  
+    font-optical-sizing: auto;
+    font-style: normal; 
+}
+#hbd{
+    top: 30px;
+    left: 10px;
+    bottom: 30px;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+#hbd>img{
+    height: 60px;
+    filter: drop-shadow(0px 10px 5px rgb(245, 65, 65));
+    animation: heart1 3s infinite linear;
+}
+@keyframes heart1 {
+    25%{
+        transform: rotate(10deg);
+    } 
+    75%{
+        transform: rotate(-20deg);
+    }
+}
+#main>h1{
+    padding: 0 0 30px 0;
+    text-align: center;
+    font-size: 60px;
+    color: white;
+    -webkit-text-stroke-color: black;
+    -webkit-text-stroke-width: 2px;
+}
+#content{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+#content img{
+    height: 500px;
+} 
+#content #grp1 #p2::after{
+    content: ""; 
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(120deg, #eaee44, #33d0ff);
+    opacity: .7;
+}
+#p1,
+#p3,
+#p6{
+    transform: rotate(10deg);
+}
+#p2,
+#p4,
+#p5{
+    transform: rotate(-10deg);
+}
+#p1,
+#p5{
+    filter: drop-shadow(10px 10px 10px black);
+}
+#p4{
+    filter: drop-shadow(-10px 10px 10px black);
+}
+#p2,
+#p3,
+#p6{
+    filter: grayscale(1);
+}
+
+@media (max-width: 600px) {
+    #main>h1{
+        font-size: 35px;
+    }
+    #hbd>img{
+        height: 30px;
+    }
+    #content img{
+        height: 230px;
+    } 
+}
