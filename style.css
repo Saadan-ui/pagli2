@@ -102,6 +102,21 @@ html,body{
 }
 
 @media (max-width: 600px) {
+    .heartBaloons{
+        height: 100%;    
+        left: 50%;
+        top: -120vh;
+        transform: translate(-50%, -50%);
+        animation: btmTop 5s ease;
+    }
+    @keyframes btmTop{
+        from{
+            top: 120vh;
+        }
+        to{
+            top: -120vh;
+        }
+    }
     #main{
         width: 100vw;
     }
