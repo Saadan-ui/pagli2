@@ -77,11 +77,11 @@ html,body{
 #p5{
     transform: rotate(-10deg);
 }
-#p1,
-#p5{
+#p1{
     filter: drop-shadow(10px 10px 10px black);
 }
-#p4{
+#p4,
+#p5{
     filter: drop-shadow(-10px 10px 10px black);
 }
 #p2,
