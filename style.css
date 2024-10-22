@@ -33,6 +33,7 @@ html,body{
     }
 }
 .baloons{
+    left: -120px;
     position: fixed;
     top: 50px;
     height: 1000px;
