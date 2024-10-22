@@ -11,13 +11,12 @@ html,body{
     font-style: normal; 
 }
 #hbd{
-    top: 30px;
-    left: 10px;
-    bottom: 30px;
-    position: absolute;
+    height: 100%;
+    position: fixed;
     display: flex;
     flex-direction: column;
     align-items: start;
+    justify-content: center;
 }
 #hbd>img{
     height: 60px;
