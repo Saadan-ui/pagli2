@@ -96,7 +96,7 @@ html,body{
 
 @media (max-width: 600px) {
     .heartBaloons{
-        height: 620px;
+        height: 650px;
         transition: 7s ease;
     }
     #main{
