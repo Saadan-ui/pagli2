@@ -41,10 +41,8 @@ html,body{
 .heartBaloons{
     position: absolute;
     left: 50%;
-    top: 120vh;
     transform: translate(-50%, -50%);
     z-index: 100;
-    transition: 5s ease;
 }
 #main>h1{
     padding: 0 0 30px 0;
@@ -94,6 +92,9 @@ html,body{
 }
 
 @media (max-width: 600px) {
+    .heartBaloons{
+        height: 400px;
+    }
     #main{
         width: 100vw;
     }
