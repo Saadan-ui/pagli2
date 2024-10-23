@@ -39,9 +39,10 @@ html,body{
     height: 1000px;
 }
 .heartBaloons{
-    position: absolute;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%);
+    position: fixed;
+    height: 1000px;
     z-index: 100;
 }
 #main>h1{
@@ -93,7 +94,7 @@ html,body{
 
 @media (max-width: 600px) {
     .heartBaloons{
-        height: 400px;
+        height: 620px;
     }
     #main{
         width: 100vw;
