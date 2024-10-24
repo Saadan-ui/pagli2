@@ -107,6 +107,7 @@ html,body{
     background-color: black;
     color: white;
     border: 1px solid white;
+    border-radius: 10px;
     filter: drop-shadow(10px 10px 20px black);
     font-size: 14px;
 }
@@ -114,6 +115,66 @@ html,body{
 #footer h3{
     text-align: center;
     color: red;
+}
+#last{
+    padding: 10px 20px;
+    z-index: 90;
+    margin: 50px 0px;
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+    border-radius: 10px;
+    filter: drop-shadow(10px 10px 20px black);
+    font-size: 14px;
+    text-align: center;
+    display: none;
+}
+#last h1{
+    color: red;
+    text-align: center;
+}
+#last button{
+    margin: 10px 0px;
+    padding: 5px 10px;
+    color: black;
+    background-color: white;
+    border-radius: 20px;
+}
+#customp{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    top: 0;
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.726);
+    z-index: 1000;
+    display: none;
+}
+#prompt{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid white;
+    border-radius: 20px;
+    text-align: center;
+    width: 300px;
+    height: 150px;
+    background-color: gray;
+}
+#prompt button{
+    margin: 10px;
+    padding: 5px 10px;
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+    border-radius: 20px;
 }
 @media (max-width: 600px) {
     .heartBaloons{
