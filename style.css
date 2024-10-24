@@ -77,23 +77,44 @@ html,body{
     transform: rotate(10deg);
 }
 #us1,
-#p4,
-#p5{
+#p2,
+#p3{
     transform: rotate(-10deg);
 }
 #p1{
     filter: drop-shadow(10px 10px 20px black);
 }
-#p4,
-#p5{
+#p2,
+#p3{
     filter: drop-shadow(-10px 10px 20px black);
+}
+#p2{
+    margin-top: 50px;
 }
 #us1,
 #us2,
 #us3{
     filter: grayscale(1);
 }
-
+#footer{
+    padding: 10px 20px;
+    z-index: 90;
+    margin: 50px 0px;
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+    border-radius: 100px 0px;
+    filter: drop-shadow(10px 10px 20px black);
+}
+#footer h1,
+#footer h3{
+    text-align: center;
+    color: red;
+}
 @media (max-width: 600px) {
     .heartBaloons{
         height: 650px;
@@ -118,5 +139,8 @@ html,body{
     #content #us2,
     #content #us3{
         height: 360px;
-    }    
+    }   
+    #p3{
+        height: 450px;
+    } 
 }
