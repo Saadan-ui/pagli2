@@ -141,6 +141,6 @@ html,body{
         height: 360px;
     }   
     #p3{
-        height: 600px;
+        scale: 1.2;
     } 
 }
