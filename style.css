@@ -207,5 +207,12 @@ html,body{
     }   
     #p3{
         scale: 1.1;
-    } 
+    }
+    #customp{
+        width: 110%;
+        overflow: hidden;
+    }
+    #prompt{
+        left: 17%;
+    }
 }
