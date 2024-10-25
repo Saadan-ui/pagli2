@@ -9,6 +9,7 @@ html,body{
     background-color: black; 
     font-optical-sizing: auto;
     font-style: normal; 
+    scroll-behavior: smooth;
 }
 #hbd{
     height: 100%;
@@ -145,12 +146,9 @@ html,body{
     border-radius: 20px;
 }
 #customp{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    position: fixed;
     color: white;
     top: 0;
-    position: fixed;
     height: 100%;
     width: 100%;
     background-color: rgba(0, 0, 0, 0.726);
@@ -158,8 +156,11 @@ html,body{
     display: none;
 }
 #prompt{
+    position: relative;
+    left: 40%;
+    top: 40%;
     display: flex;
-    justify-content: center;
+    justify-content:center;
     align-items: center;
     border: 1px solid white;
     border-radius: 20px;
@@ -200,6 +201,9 @@ html,body{
     #content #us2,
     #content #us3{
         height: 360px;
+    }
+    #content #us3{
+        margin-top: 40px;
     }   
     #p3{
         scale: 1.1;
