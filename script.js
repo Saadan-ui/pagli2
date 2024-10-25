@@ -1,4 +1,6 @@
 window.onload = function(){
+    document.body.scrollTop = 0; 
+    document.documentElement.scrollTop = 0;
     var baloons = document.querySelector(".heartBaloons");
     baloons.style.top = "-170vh";
 };
@@ -20,12 +22,14 @@ function gray3(){
     counter++;
     console.log(counter);
 }
-setInterval(() => {
-    if(counter>=3){
-        var f = document.querySelector("#footer").style.display="none";
-        var l = document.querySelector("#last").style.display="block";
-    }
-}, 1000);
+var set1 =  setInterval(() => {
+        if(counter>=3){
+            var f = document.querySelector("#footer").style.display="none";
+            var l = document.querySelector("#last").style.display="block";
+            window.scrollTo(0,document.body.scrollHeight);
+            clearInterval(set1);
+        }
+}, 500);
 
 function prmpt(){
     var csp = document.querySelector("#customp").style.display = "block";
