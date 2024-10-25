@@ -61,23 +61,26 @@ html,body{
     justify-content: center;
     align-items: center;
 }
-#content #grp1,
-#content #grp2,
-#content #grp3{
+#content #grp{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background: url(/images/Alpha/line.svg);
+    background-position: center;
+    /* background-repeat: no-repeat; */
 }
 #content img{
     height: 600px;
 }
 #p1,
 #us2,
-#us3{
+#us3,
+#us5{
     transform: rotate(10deg);
 }
 #us1,
+#us4,
 #p2,
 #p3{
     transform: rotate(-10deg);
@@ -94,7 +97,9 @@ html,body{
 }
 #us1,
 #us2,
-#us3{
+#us3,
+#us4,
+#us5{
     filter: grayscale(1);
 }
 #footer{
@@ -203,7 +208,7 @@ html,body{
         height: 360px;
     }
     #content #us3{
-        margin-top: 40px;
+        margin-top: 60px;
     }   
     #p3{
         scale: 1.1;
