@@ -214,7 +214,7 @@ html,body{
         scale: 1.1;
     }
     #customp{
-        width: 110%;
+        width: 100%;
         overflow: hidden;
     }
     #prompt{
