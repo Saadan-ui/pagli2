@@ -45,6 +45,5 @@ function prmpt(){
     var csp = document.querySelector("#customp").style.display = "block";
 };
 function sendEmail(){
-    alert("Apna email check kro")
-    // email
+    emailjs.send("service_i1vumm6","template_r66y0i5").then(alert("Apna email check kro"))
 };
