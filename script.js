@@ -74,4 +74,7 @@ function propose(){
         document.querySelector("#customp").style.display = "block";
         document.querySelector("#quiz").style.display = "none";
     }
+    else{
+        alert("Du kya mukka")
+    }
 }
