@@ -165,7 +165,9 @@ html,body{
     top: 0;
     height: 100%;
     width: 100%;
-    background-color: rgba(0, 0, 0, 0.726);
+    background: url(images/Alpha/bg.svg);
+    background-position: center;
+    background-size: contain;
     z-index: 1000;
     display: none;
 }
@@ -284,6 +286,16 @@ html,body{
         width: 100%;
         overflow: hidden;
     }
+    #customp #ringBox{
+        top: -70px;
+    }
     #prompt{
+        line-height: 10px;
+    }
+    #prompt #elem p{
+        font-size: 28px;
+    }
+    #prompt button{
+        font-size: 20px;
     }
 }
