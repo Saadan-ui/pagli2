@@ -285,7 +285,5 @@ html,body{
         overflow: hidden;
     }
     #prompt{
-        margin-top: 10px;
-        line-height: 45px;
     }
 }
