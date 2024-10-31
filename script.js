@@ -1,3 +1,5 @@
+var bgm = document.querySelector("#bgm");
+bgm.play();
 window.onload = function(){
     document.body.scrollTop = 0; 
     document.documentElement.scrollTop = 0;
