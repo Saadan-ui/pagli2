@@ -11,6 +11,10 @@ html,body{
     font-style: normal; 
     scroll-behavior: smooth;
 }
+audio{
+    position: absolute;
+    z-index: -1000;
+}
 #hbd{
     height: 100%;
     position: fixed;
