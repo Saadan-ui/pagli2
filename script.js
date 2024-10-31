@@ -75,6 +75,6 @@ function propose(){
         document.querySelector("#quiz").style.display = "none";
     }
     else{
-        alert("Du kya mukka")
+        alert("Du kya mukka, Ye sahi jawaab h??")
     }
 }
